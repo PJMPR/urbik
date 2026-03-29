@@ -25,13 +25,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Prepare site
+        run: |
+          mkdir -p public
+          rsync -av --exclude '.git' --exclude '.github' --exclude '.idea' --exclude 'README.md' --exclude 'public' ./ public/
+          touch public/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
