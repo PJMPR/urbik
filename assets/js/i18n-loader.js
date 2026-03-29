@@ -454,6 +454,31 @@ function setupContactForm() {
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();
+        const formData = new FormData(form);
+        const name = formData.get('name') || '';
+        const phone = formData.get('phone') || '';
+        const email = formData.get('email') || '';
+        const service = formData.get('service') || '';
+        const message = formData.get('message') || '';
+        const recipient = state.translations?.contact?.email || '';
+
+        if (!recipient) {
+            status.textContent = state.translations?.contact?.form?.notice || '';
+            return;
+        }
+
+        const subject = `Zapytanie: ${service || 'Usługa'}`;
+        const bodyLines = [
+            `Imię i nazwisko: ${name}`,
+            `Telefon: ${phone}`,
+            `E-mail: ${email}`,
+            `Zakres prac: ${service}`,
+            '',
+            message
+        ];
+        const mailto = `mailto:${encodeURIComponent(recipient)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
+
+        window.location.href = mailto;
         status.textContent = state.translations?.contact?.form?.notice || '';
     });
 }
