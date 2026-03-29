@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="">
+    <link rel="canonical" href="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="photos/16081c6d-c037-47e3-b181-d513a2d1bd11.JPG">
+    <meta name="theme-color" content="#111111">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- GA4 placeholder: replace G-XXXXXXXXXX and remove the comment wrapper.
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+    <script src="assets/js/i18n-data.js" defer></script>
+    <script src="assets/js/i18n-loader.js" defer></script>
+</head>
+<body class="theme-body" data-page="home">
+    <a href="#main-content" class="skip-link" data-i18n="common.skipToContent"></a>
+    <div class="min-h-screen flex flex-col">
+        <header class="sticky top-0 z-50 border-b border-black/5 theme-surface">
+            <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+                <a href="index.html" class="text-lg font-black tracking-[0.18em] uppercase text-black">
+                    <span data-i18n="site.brand"></span>
+                </a>
+                <div class="flex items-center gap-3 md:gap-4">
+                    <nav id="site-nav" class="site-nav fixed inset-x-4 top-20 hidden rounded-3xl border border-black/10 bg-white p-5 shadow-2xl md:static md:block md:rounded-none md:border-0 md:bg-transparent md:p-0 md:shadow-none" data-i18n-attr="aria-label:common.primaryNavigation">
+                        <div class="flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
+                            <a href="index.html" class="nav-link" data-nav-link="home" data-i18n="navigation.home"></a>
+                            <a href="about.html" class="nav-link" data-nav-link="about" data-i18n="navigation.about"></a>
+                            <a href="services.html" class="nav-link" data-nav-link="services" data-i18n="navigation.services"></a>
+                            <a href="gallery.html" class="nav-link" data-nav-link="gallery" data-i18n="navigation.gallery"></a>
+                            <a href="contact.html" class="nav-link" data-nav-link="contact" data-i18n="navigation.contact"></a>
+                        </div>
+                    </nav>
+                    <div class="hidden items-center gap-2 sm:flex" role="group" data-i18n-attr="aria-label:common.languageSwitcher">
+                        <button type="button" class="chip-button" data-lang="pl" data-i18n="common.languages.pl"></button>
+                        <button type="button" class="chip-button" data-lang="de" data-i18n="common.languages.de"></button>
+                    </div>
+                    <button type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 bg-white text-black md:hidden" data-menu-toggle aria-controls="site-nav" aria-expanded="false">
+                        <span class="sr-only" data-i18n="common.openMenu"></span>
+                        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="mx-auto flex max-w-7xl items-center justify-center gap-2 px-4 pb-4 sm:hidden sm:px-6 lg:px-8" role="group" data-i18n-attr="aria-label:common.languageSwitcher">
+                <button type="button" class="chip-button" data-lang="pl" data-i18n="common.languages.pl"></button>
+                <button type="button" class="chip-button" data-lang="de" data-i18n="common.languages.de"></button>
+            </div>
+        </header>
+
+        <main id="main-content" class="flex-1">
+            <section class="mx-auto max-w-7xl px-4 pb-8 pt-10 sm:px-6 lg:px-8 lg:pt-14">
+                <div class="hero-grid section-shell p-6 sm:p-8 lg:p-10">
+                    <div class="flex flex-col justify-center gap-6">
+                        <span class="section-label" data-i18n="home.hero.eyebrow"></span>
+                        <div class="space-y-5">
+                            <h1 class="text-4xl font-black leading-tight text-black sm:text-5xl lg:text-6xl" data-i18n="home.hero.title"></h1>
+                            <p class="max-w-2xl text-base leading-8 text-gray-700 sm:text-lg" data-i18n="home.hero.description"></p>
+                        </div>
+                        <div class="flex flex-col gap-3 sm:flex-row">
+                            <a href="services.html" class="btn-primary" data-i18n="home.hero.primaryCta"></a>
+                            <a href="gallery.html" class="btn-secondary" data-i18n="home.hero.secondaryCta"></a>
+                        </div>
+                        <div class="info-grid" data-home-stats></div>
+                    </div>
+                    <div class="hero-visual p-6 lg:p-8" aria-hidden="true">
+                        <div class="hero-image-stack">
+                            <img src="photos/16081c6d-c037-47e3-b181-d513a2d1bd11.JPG" alt="" loading="lazy" data-check-exists>
+                            <img src="photos/18da5642-4396-4e5c-8be0-ff0fe71834f5.JPG" alt="" loading="lazy" data-check-exists>
+                            <img src="photos/20356b62-8b3b-4765-bb8e-18d693568275.JPG" alt="" loading="lazy" data-check-exists>
+                            <img src="photos/20e214d6-23ea-4db3-826d-65ba3da75d75.JPG" alt="" loading="lazy" data-check-exists>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+                <div class="section-shell p-6 sm:p-8 lg:p-10">
+                    <div class="max-w-3xl space-y-4">
+                        <span class="section-label" data-i18n="home.highlightsLabel"></span>
+                        <h2 class="text-3xl font-black text-black sm:text-4xl" data-i18n="home.highlightsTitle"></h2>
+                        <p class="text-base leading-8 text-gray-700 sm:text-lg" data-i18n="home.highlightsIntro"></p>
+                    </div>
+                    <div class="card-grid mt-8" data-home-highlights></div>
+                </div>
+            </section>
+
+            <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+                <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
+                    <div class="section-shell p-6 sm:p-8 lg:p-10">
+                        <div class="max-w-3xl space-y-4">
+                            <span class="section-label" data-i18n="home.servicesLabel"></span>
+                            <h2 class="text-3xl font-black text-black sm:text-4xl" data-i18n="home.servicesTitle"></h2>
+                            <p class="text-base leading-8 text-gray-700 sm:text-lg" data-i18n="home.servicesIntro"></p>
+                        </div>
+                        <div class="card-grid mt-8" data-home-services-preview></div>
+                    </div>
+                    <aside class="theme-panel-dark flex flex-col justify-between gap-6 p-6 sm:p-8">
+                        <div class="space-y-4">
+                            <span class="section-label" data-i18n="home.contactLabel"></span>
+                            <h2 class="text-2xl font-black sm:text-3xl" data-i18n="home.contactTitle"></h2>
+                            <p class="text-sm leading-7 text-white/75 sm:text-base" data-i18n="home.contactIntro"></p>
+                        </div>
+                        <div class="space-y-3 text-sm sm:text-base">
+                            <a class="btn-primary w-full" href="contact.html" data-i18n="home.contactPrimaryCta"></a>
+                            <a class="btn-secondary w-full border-white/20 text-white hover:text-white" data-contact-link="phonePrimary"></a>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+                <div class="section-shell p-6 sm:p-8 lg:p-10">
+                    <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+                        <div class="max-w-3xl space-y-4">
+                            <span class="section-label" data-i18n="home.galleryLabel"></span>
+                            <h2 class="text-3xl font-black text-black sm:text-4xl" data-i18n="home.galleryTitle"></h2>
+                            <p class="text-base leading-8 text-gray-700 sm:text-lg" data-i18n="home.galleryIntro"></p>
+                        </div>
+                        <a href="gallery.html" class="btn-secondary" data-i18n="home.galleryCta"></a>
+                    </div>
+                    <div class="preview-grid mt-8" data-home-gallery-preview></div>
+                </div>
+            </section>
+
+            <section class="mx-auto max-w-7xl px-4 pb-14 pt-8 sm:px-6 lg:px-8 lg:pb-20">
+                <div class="theme-panel-dark flex flex-col gap-6 p-6 sm:p-8 lg:flex-row lg:items-center lg:justify-between lg:p-10">
+                    <div class="max-w-3xl space-y-4">
+                        <span class="section-label" data-i18n="home.ctaLabel"></span>
+                        <h2 class="text-3xl font-black sm:text-4xl" data-i18n="home.ctaTitle"></h2>
+                        <p class="text-sm leading-7 text-white/75 sm:text-base" data-i18n="home.ctaDescription"></p>
+                    </div>
+                    <div class="flex flex-col gap-3 sm:flex-row">
+                        <a href="contact.html" class="btn-primary" data-i18n="home.ctaPrimary"></a>
+                        <a href="about.html" class="btn-secondary border-white/20 text-white hover:text-white" data-i18n="home.ctaSecondary"></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-shell mt-auto">
+            <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[minmax(0,1.2fr)_repeat(2,minmax(0,0.8fr))] lg:px-8">
+                <div class="space-y-4">
+                    <p class="text-lg font-black uppercase tracking-[0.18em] text-white" data-i18n="site.brand"></p>
+                    <p class="max-w-md text-sm leading-7 text-white/70" data-i18n="footer.tagline"></p>
+                </div>
+                <div class="space-y-3 text-sm leading-7">
+                    <p class="font-semibold text-white" data-i18n="footer.locationLabel"></p>
+                    <p data-i18n="contact.address"></p>
+                    <p data-i18n="contact.cityLine"></p>
+                </div>
+                <div class="space-y-3 text-sm leading-7">
+                    <p class="font-semibold text-white" data-i18n="footer.contactLabel"></p>
+                    <a href="contact.html" data-i18n="navigation.contact"></a>
+                    <a href="mailto:" data-contact-link="email"></a>
+                    <a href="tel:" data-contact-link="phonePrimary"></a>
+                </div>
+            </div>
+            <div class="border-t border-white/10">
+                <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-4 text-sm text-white/65 sm:px-6 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+                    <p><span>&copy; </span><span data-current-year></span><span> </span><span data-i18n="site.brand"></span><span>. </span><span data-i18n="footer.rights"></span></p>
+                    <p data-i18n="footer.credit"></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="lightbox" data-lightbox hidden>
+        <div class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-describedby="lightbox-description">
+            <div class="lightbox-toolbar">
+                <div class="flex gap-2">
+                    <button type="button" class="chip-button" data-lightbox-prev>
+                        <span aria-hidden="true">&#8592;</span>
+                        <span class="sr-only" data-i18n="common.previousImage"></span>
+                    </button>
+                    <button type="button" class="chip-button" data-lightbox-next>
+                        <span aria-hidden="true">&#8594;</span>
+                        <span class="sr-only" data-i18n="common.nextImage"></span>
+                    </button>
+                </div>
+                <button type="button" class="chip-button" data-lightbox-close>
+                    <span aria-hidden="true">&#10005;</span>
+                    <span class="sr-only" data-i18n="common.closeLightbox"></span>
+                </button>
+            </div>
+            <img src="" alt="" data-lightbox-image>
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title" class="text-2xl font-bold"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

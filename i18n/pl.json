@@ -1,0 +1,442 @@
+{
+  "site": {
+    "brand": "Urbik Podłogi & Wykończenia",
+    "baseUrl": "https://example.com"
+  },
+  "common": {
+    "skipToContent": "Przejdź do treści",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "primaryNavigation": "Nawigacja główna",
+    "languageSwitcher": "Wybór języka",
+    "languages": {
+      "pl": "PL",
+      "de": "DE"
+    },
+    "closeLightbox": "Zamknij podgląd zdjęcia",
+    "previousImage": "Poprzednie zdjęcie",
+    "nextImage": "Następne zdjęcie"
+  },
+  "navigation": {
+    "home": "Start",
+    "about": "O firmie",
+    "services": "Usługi",
+    "gallery": "Galeria",
+    "contact": "Kontakt"
+  },
+  "seo": {
+    "home": {
+      "title": "Urbik Podłogi & Wykończenia | Remonty i podłogi",
+      "description": "Profesjonalna firma remontowo-budowlana specjalizująca się w pracach wykończeniowych i montażu podłóg na terenie Krakowa i okolic.",
+      "canonicalPath": "/index.html",
+      "ogTitle": "Podłogi, renowacje i wykończenia wnętrz",
+      "ogDescription": "Sprawdzone realizacje podłóg drewnianych, winylowych, laminowanych oraz kompleksowych wykończeń wnętrz."
+    },
+    "about": {
+      "title": "O firmie | Urbik Podłogi & Wykończenia",
+      "description": "Poznaj sposób pracy, doświadczenie i standard realizacji firmy Urbik Podłogi & Wykończenia.",
+      "canonicalPath": "/about.html",
+      "ogTitle": "Doświadczenie i rzetelna organizacja prac",
+      "ogDescription": "Pracujemy terminowo, dokładnie i z naciskiem na estetykę wykończenia każdego detalu."
+    },
+    "services": {
+      "title": "Usługi | Podłogi, montaż, cyklinowanie",
+      "description": "Zakres usług obejmuje podłogi, montaż listew, renowacje parkietu, lakierowanie, olejowanie i prace wykończeniowe.",
+      "canonicalPath": "/services.html",
+      "ogTitle": "Usługi wykończeniowe i podłogowe",
+      "ogDescription": "Od przygotowania podłoża po finalne zabezpieczenie powierzchni i odbiór inwestycji."
+    },
+    "gallery": {
+      "title": "Galeria realizacji | Urbik Podłogi & Wykończenia",
+      "description": "Zobacz wybrane realizacje podłóg i prac wykończeniowych wykonanych przez nasz zespół.",
+      "canonicalPath": "/gallery.html",
+      "ogTitle": "Galeria wykończeń i podłóg",
+      "ogDescription": "Realne zdjęcia naszych realizacji: montaż, renowacja, detale i finalne wykończenie."
+    },
+    "contact": {
+      "title": "Kontakt | Urbik Podłogi & Wykończenia",
+      "description": "Skontaktuj się z nami, aby omówić zakres prac, termin realizacji i wstępną wycenę.",
+      "canonicalPath": "/contact.html",
+      "ogTitle": "Kontakt i szybka wycena",
+      "ogDescription": "Adres, telefony, e-mail oraz prosty formularz kontaktowy bez integracji serwerowej."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Remontowo-budowlana jakość",
+      "title": "Podłogi i wykończenia wnętrz wykonane dokładnie, czysto i terminowo.",
+      "description": "Realizujemy prace wykończeniowe z naciskiem na podłogi: przygotowanie podłoża, montaż, renowację, listwy oraz końcowe zabezpieczenie powierzchni.",
+      "primaryCta": "Zobacz zakres usług",
+      "secondaryCta": "Przejdź do galerii"
+    },
+    "stats": [
+      {
+        "value": "12+",
+        "label": "lat praktyki w pracach wykończeniowych"
+      },
+      {
+        "value": "32",
+        "label": "udokumentowane realizacje w aktualnej galerii"
+      },
+      {
+        "value": "48h",
+        "label": "na wstępną odpowiedź i ustalenie oględzin"
+      }
+    ],
+    "highlightsLabel": "Dlaczego my",
+    "highlightsTitle": "Spójna organizacja prac od pomiaru do odbioru",
+    "highlightsIntro": "Działamy jak partner wykonawczy dla właścicieli mieszkań, domów i lokali użytkowych. Liczy się estetyka, trwałość oraz przewidywalny harmonogram.",
+    "highlights": [
+      {
+        "title": "Przygotowanie podłoża",
+        "description": "Kontrolujemy równość, wilgotność oraz dobór technologii pod konkretny typ podłogi."
+      },
+      {
+        "title": "Precyzyjny montaż",
+        "description": "Dbamy o linię ułożenia, dylatacje, narożniki, progi i estetyczne połączenia między pomieszczeniami."
+      },
+      {
+        "title": "Wykończenie bez improwizacji",
+        "description": "Na końcu porządkujemy detal: listwy, uszczelnienia, zabezpieczenie powierzchni i przekazanie zaleceń użytkowych."
+      }
+    ],
+    "servicesLabel": "Usługi",
+    "servicesTitle": "Najczęściej zlecane realizacje",
+    "servicesIntro": "Obsługujemy zarówno pojedyncze pomieszczenia, jak i pełne pakiety prac wykończeniowych z naciskiem na podłogi.",
+    "contactLabel": "Kontakt",
+    "contactTitle": "Potrzebujesz szybkiej wyceny?",
+    "contactIntro": "Wyślij zakres prac, metraż i termin. Przygotujemy wstępne informacje i zaproponujemy dogodny termin oględzin.",
+    "contactPrimaryCta": "Przejdź do kontaktu",
+    "galleryLabel": "Realizacje",
+    "galleryTitle": "Galeria prawdziwych zdjęć z wykonanych prac",
+    "galleryIntro": "Bez wizualizacji i stocków. Pokazujemy realne efekty montażu, renowacji i finalnego wykończenia podłóg.",
+    "galleryCta": "Otwórz pełną galerię",
+    "ctaLabel": "Współpraca",
+    "ctaTitle": "Szukasz wykonawcy, który dowozi detal i termin?",
+    "ctaDescription": "Pracujemy przejrzyście: ustalenie zakresu, plan prac, realizacja i odbiór bez zbędnego chaosu na inwestycji.",
+    "ctaPrimary": "Umów rozmowę",
+    "ctaSecondary": "Poznaj firmę"
+  },
+  "about": {
+    "heroLabel": "O firmie",
+    "heroTitle": "Rzetelne wykończenia z mocnym naciskiem na jakość podłogi i wykończenia detalu.",
+    "heroIntro": "Łączymy doświadczenie wykonawcze z uporządkowaną organizacją prac. Dzięki temu inwestor od początku wie, jak będzie wyglądał proces, zakres i standard wykonania.",
+    "storyLabel": "Jak pracujemy",
+    "storyTitle": "Najpierw rozpoznanie, potem technologia i dopiero montaż",
+    "storyText1": "Każdą realizację zaczynamy od oceny podłoża, funkcji pomieszczenia i oczekiwanego efektu końcowego. Inaczej prowadzimy prace w domu rodzinnym, inaczej w mieszkaniu inwestycyjnym, a jeszcze inaczej w lokalu użytkowym.",
+    "storyText2": "Specjalizujemy się w podłogach oraz pracach wykończeniowych, które muszą ze sobą dobrze współgrać: poziomy, listwy, przejścia, zabezpieczenia i finalna estetyka mają znaczenie tak samo jak sam montaż.",
+    "metricsLabel": "Liczby",
+    "valuesLabel": "Standard pracy",
+    "valuesTitle": "Trzy zasady, których pilnujemy na każdej inwestycji",
+    "valuesIntro": "Stawiamy na przewidywalność, porządek i jakość, którą widać także po kilku sezonach użytkowania.",
+    "values": [
+      {
+        "title": "Dokładność wykonawcza",
+        "description": "Pracujemy z dbałością o linię montażu, dobór materiałów pomocniczych i końcowy detal."
+      },
+      {
+        "title": "Jasna komunikacja",
+        "description": "Ustalamy zakres, etapy i kolejność prac tak, aby inwestor wiedział, co dzieje się na budowie."
+      },
+      {
+        "title": "Czyste przekazanie prac",
+        "description": "Kończymy realizację uporządkowaniem miejsca pracy i wskazówkami dotyczącymi pielęgnacji podłogi."
+      }
+    ],
+    "processLabel": "Proces",
+    "processTitle": "Przebieg współpracy krok po kroku",
+    "process": [
+      {
+        "title": "1. Oględziny i rozmowa",
+        "description": "Analizujemy zakres, stan podłoża, oczekiwania wizualne i funkcjonalne."
+      },
+      {
+        "title": "2. Dobór rozwiązania",
+        "description": "Proponujemy technologię montażu, wykończenie powierzchni oraz potrzebne prace towarzyszące."
+      },
+      {
+        "title": "3. Realizacja",
+        "description": "Prowadzimy prace zgodnie z ustalonym harmonogramem i kontrolą jakości każdego etapu."
+      },
+      {
+        "title": "4. Odbiór i zalecenia",
+        "description": "Przekazujemy gotową realizację wraz z informacją, jak bezpiecznie użytkować i pielęgnować podłogę."
+      }
+    ],
+    "ctaLabel": "Następny krok",
+    "ctaTitle": "Jeśli zależy Ci na estetyce podłogi, zacznijmy od oględzin i konkretnej rozmowy.",
+    "ctaDescription": "Wystarczy kilka informacji o metrażu, rodzaju wnętrza i oczekiwanym terminie, abyśmy mogli zaproponować sensowny plan działania.",
+    "ctaButton": "Skontaktuj się"
+  },
+  "services": {
+    "heroLabel": "Zakres usług",
+    "heroTitle": "Usługi wykończeniowe z koncentracją na podłogach i trwałym detalu.",
+    "heroIntro": "Wykonujemy zarówno pojedyncze etapy, jak i szersze pakiety prac. Najważniejsze jest dopasowanie technologii do wnętrza i sposobu użytkowania.",
+    "sectionLabel": "Co wykonujemy",
+    "sectionTitle": "Zakres prac dla mieszkań, domów i lokali",
+    "sectionIntro": "Poniższe usługi łączymy elastycznie w zależności od potrzeb inwestycji. Każdą realizację poprzedzamy oceną techniczną i doborem odpowiednich materiałów.",
+    "items": [
+      {
+        "title": "Kompleksowe prace wykończeniowe",
+        "description": "Koordynujemy drobne i średnie roboty wykończeniowe tak, aby podłoga była częścią spójnego efektu końcowego.",
+        "details": [
+          "przygotowanie ścian i podłóg pod dalsze etapy",
+          "kontrola poziomów i połączeń między strefami",
+          "koordynacja detalu przy listwach, progach i zabudowach"
+        ]
+      },
+      {
+        "title": "Podłogi drewniane i warstwowe",
+        "description": "Montujemy podłogi naturalne z naciskiem na stabilność, estetyczne łączenia oraz poprawne dylatacje.",
+        "details": [
+          "deska warstwowa i parkiet",
+          "układ prosty, mijany lub dekoracyjny",
+          "dobór podkładów i technologii montażu"
+        ]
+      },
+      {
+        "title": "Panele laminowane i winylowe",
+        "description": "Układamy rozwiązania odporne na codzienną eksploatację w mieszkaniach, biurach i lokalach użytkowych.",
+        "details": [
+          "precyzyjne docinki przy ościeżach i narożnikach",
+          "systemy klik i montaż zgodny z zaleceniami producenta",
+          "estetyczne przejścia między pomieszczeniami"
+        ]
+      },
+      {
+        "title": "Cyklinowanie i renowacja parkietu",
+        "description": "Przywracamy drewnianym podłogom równą powierzchnię, głębię koloru i bezpieczną warstwę ochronną.",
+        "details": [
+          "szlifowanie wieloetapowe",
+          "naprawy miejscowe i wymiana uszkodzonych elementów",
+          "przygotowanie pod olej lub lakier"
+        ]
+      },
+      {
+        "title": "Lakierowanie, olejowanie, uszczelnianie",
+        "description": "Dobieramy system zabezpieczenia do charakteru wnętrza i oczekiwanego efektu wizualnego.",
+        "details": [
+          "wykończenie matowe, półmatowe lub naturalne",
+          "zabezpieczenie stref intensywnie użytkowanych",
+          "pielęgnacja startowa po zakończeniu prac"
+        ]
+      },
+      {
+        "title": "Listwy, progi i wykończenie detalu",
+        "description": "Domykamy realizację montażem elementów końcowych, które decydują o jakości odbioru całego wnętrza.",
+        "details": [
+          "montaż listew przypodłogowych",
+          "progi i profile przejściowe",
+          "estetyczne zakończenie przy drzwiach i schodach"
+        ]
+      }
+    ],
+    "processLabel": "Sposób realizacji",
+    "processTitle": "Jak prowadzimy usługę od pierwszego kontaktu do odbioru",
+    "process": [
+      {
+        "title": "Analiza podłoża",
+        "description": "Sprawdzamy równość, nośność, wilgotność i warunki potrzebne do bezpiecznego montażu."
+      },
+      {
+        "title": "Dobór materiałów",
+        "description": "Dopasowujemy typ podłogi, podkładów i chemii budowlanej do konkretnego wnętrza."
+      },
+      {
+        "title": "Montaż i renowacja",
+        "description": "Realizujemy ustalony zakres z naciskiem na czystość prac i estetykę detalu."
+      },
+      {
+        "title": "Finalne zabezpieczenie",
+        "description": "Kończymy inwestycję montażem listew, uszczelnień oraz przekazaniem zaleceń pielęgnacyjnych."
+      }
+    ],
+    "ctaLabel": "Wycena",
+    "ctaTitle": "Opisz zakres prac, a dobierzemy właściwą technologię i kolejność realizacji.",
+    "ctaDescription": "Najlepszy efekt osiągamy wtedy, gdy podłoga i pozostałe etapy wykończenia są zaplanowane jako całość.",
+    "ctaButton": "Poproś o kontakt"
+  },
+  "galleryPage": {
+    "heroLabel": "Galeria",
+    "heroTitle": "Wybrane realizacje podłóg i prac wykończeniowych.",
+    "heroIntro": "Każde zdjęcie pochodzi z realnej inwestycji. Pokazujemy etapy prac, detale montażowe i finalny efekt wykończenia.",
+    "gridLabel": "Zdjęcia",
+    "gridTitle": "Kliknij zdjęcie, aby zobaczyć je w większym podglądzie",
+    "gridIntro": "Opisy są przypisane do konkretnych plików zdjęć, dzięki czemu galeria pozostaje spójna także po zmianie języka.",
+    "helper": "Wszystkie zdjęcia ładują się leniwie dla szybszego działania strony."
+  },
+  "contact": {
+    "heroLabel": "Kontakt",
+    "heroTitle": "Porozmawiajmy o Twojej podłodze lub zakresie wykończenia.",
+    "heroIntro": "Skontaktuj się telefonicznie, mailowo albo przez prosty formularz. To statyczna strona, więc formularz nie wysyła danych na serwer — służy jako gotowy interfejs do dalszej integracji.",
+    "detailsLabel": "Dane kontaktowe",
+    "detailsTitle": "Dostępni w Krakowie i okolicach",
+    "detailsIntro": "Pracujemy głównie na rynku mieszkaniowym i małych inwestycjach komercyjnych. Ustalamy dogodny termin oględzin oraz konsultacji technicznej.",
+    "addressLabel": "Adres",
+    "address": "ul. Czerwona 18",
+    "cityLine": "30-698 Kraków",
+    "phonePrimaryLabel": "Telefon główny",
+    "phonePrimary": "+48 600 700 800",
+    "phoneSecondaryLabel": "Telefon dodatkowy",
+    "phoneSecondary": "+48 501 234 567",
+    "emailLabel": "E-mail",
+    "email": "kontakt@urbik-podlogi.pl",
+    "hoursLabel": "Godziny kontaktu",
+    "hours": "Poniedziałek - Piątek: 07:00 - 18:00 | Sobota: 08:00 - 14:00",
+    "formLabel": "Formularz",
+    "formTitle": "Prześlij zakres prac",
+    "formIntro": "Wpisz podstawowe informacje o inwestycji. Interfejs jest gotowy do późniejszego podpięcia do dowolnej usługi formularzy.",
+    "form": {
+      "nameLabel": "Imię i nazwisko",
+      "namePlaceholder": "Np. Jan Kowalski",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "+48 000 000 000",
+      "emailLabel": "Adres e-mail",
+      "emailPlaceholder": "twoj@email.pl",
+      "serviceLabel": "Zakres prac",
+      "servicePlaceholder": "Wybierz interesującą usługę",
+      "messageLabel": "Opis inwestycji",
+      "messagePlaceholder": "Metraż, typ podłogi, lokalizacja i preferowany termin realizacji.",
+      "submit": "Wyślij zapytanie",
+      "disclaimer": "Bez integracji serwerowej — formularz prezentuje gotowy układ UI.",
+      "notice": "Formularz w tej wersji nie wysyła danych. Dodaj integrację, aby obsłużyć zapytania produkcyjnie."
+    }
+  },
+  "footer": {
+    "tagline": "Wykończenia wnętrz i podłogi z naciskiem na trwałość, porządek prac i estetykę wykonania.",
+    "locationLabel": "Obszar działania",
+    "contactLabel": "Szybki kontakt",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "credit": "Statyczna strona przygotowana w HTML, Tailwind i vanilla JS."
+  },
+  "gallery": {
+    "16081c6d-c037-47e3-b181-d513a2d1bd11.JPG": {
+      "title": "Odnowiona podłoga dębowa",
+      "description": "Szlif i zabezpieczenie powierzchni przygotowane pod codzienne użytkowanie w strefie dziennej."
+    },
+    "18da5642-4396-4e5c-8be0-ff0fe71834f5.JPG": {
+      "title": "Detal jodełki",
+      "description": "Precyzyjnie ustawiony wzór z równym rytmem linii i czystym wykończeniem przy ścianach."
+    },
+    "20356b62-8b3b-4765-bb8e-18d693568275.JPG": {
+      "title": "Panele w salonie",
+      "description": "Montaż paneli z dopasowaniem kierunku ułożenia do światła i proporcji pomieszczenia."
+    },
+    "20e214d6-23ea-4db3-826d-65ba3da75d75.JPG": {
+      "title": "Winyl w komunikacji",
+      "description": "Odporna podłoga do strefy wejściowej z estetycznym wykończeniem krawędzi."
+    },
+    "23987375-34db-4784-92bc-9ff3b67a6747.JPG": {
+      "title": "Przygotowanie podłoża",
+      "description": "Etap wyrównania i kontroli powierzchni przed rozpoczęciem właściwego montażu."
+    },
+    "38039f9f-a35f-44af-bc86-0c309fb6266d.JPG": {
+      "title": "Listwy i wykończenie",
+      "description": "Domknięcie realizacji detalem przypodłogowym dopasowanym do koloru i stylu wnętrza."
+    },
+    "3bed13b3-75f6-4cea-8c12-883e4bae4381.JPG": {
+      "title": "Cyklinowanie przed zabezpieczeniem",
+      "description": "Wieloetapowe szlifowanie przygotowujące parkiet pod kolejne warstwy ochronne."
+    },
+    "3e785fb9-b526-4272-83b7-6d628bbfd199.JPG": {
+      "title": "Matowe wykończenie",
+      "description": "Naturalny efekt wizualny z zachowaniem odporności na codzienne użytkowanie."
+    },
+    "3ef14e16-a45d-4668-9fa8-86bb6e26a8ae.JPG": {
+      "title": "Wykończenie stopnia",
+      "description": "Precyzyjna obróbka krawędzi i połączeń w newralgicznej strefie komunikacyjnej."
+    },
+    "58ca22f0-83f8-489a-b267-fb5c4d0dc24f.JPG": {
+      "title": "Równa linia płytek",
+      "description": "Układ z kontrolą fug i osi pomieszczenia dla spójnego odbioru całej strefy."
+    },
+    "74a5f012-6087-4def-99d4-cc8325712bf3.JPG": {
+      "title": "Panele wielkoformatowe",
+      "description": "Duży format ułożony z naciskiem na rytm połączeń i stabilność powierzchni."
+    },
+    "79da2c40-3a5a-4be4-973c-7a8d25f011cf.JPG": {
+      "title": "Wykończenie olejowane",
+      "description": "Podkreślone usłojenie drewna i spokojny, naturalny efekt końcowy."
+    },
+    "7e1f5738-63b9-44ef-983a-ef1482c86a67.JPG": {
+      "title": "Przejście między pomieszczeniami",
+      "description": "Spójne połączenie dwóch stref bez przypadkowych różnic poziomów."
+    },
+    "84c62c79-5332-45ad-bbec-076c79f721c1.JPG": {
+      "title": "Montaż listew przypodłogowych",
+      "description": "Czysty detal końcowy dopasowany do geometrii ścian i koloru podłogi."
+    },
+    "89a6021f-90f3-4a06-8459-7ab3b5aa71e6.JPG": {
+      "title": "Połączenie bez progu",
+      "description": "Estetyczne przejście między strefami użytkowymi bez zbędnych podziałów."
+    },
+    "8a7fceaf-fcd9-4b95-bbe9-fe41a25ceb48.JPG": {
+      "title": "Przymiarka układu",
+      "description": "Kontrola wzoru i kierunku montażu przed finalnym zamknięciem powierzchni."
+    },
+    "8c630f6c-326c-4067-af7d-2bb81a57c9bd.JPG": {
+      "title": "Świeżo zabezpieczony parkiet",
+      "description": "Finalna warstwa ochronna nadająca równy połysk i bezpieczne użytkowanie."
+    },
+    "a12a2244-4018-4d0d-8f40-7c57bba40e51.JPG": {
+      "title": "Naprawa i wymiana elementów",
+      "description": "Miejscowa renowacja desek z zachowaniem spójnego wyglądu całej podłogi."
+    },
+    "abb4b950-ae95-41b8-ba82-29f97d83d438.JPG": {
+      "title": "Warstwa wyrównująca",
+      "description": "Stabilne przygotowanie podłoża pod dalsze prace montażowe."
+    },
+    "abe2db63-25f1-4e72-b407-7814cee83b5d.JPG": {
+      "title": "Podkład akustyczny",
+      "description": "Dobór rozwiązania poprawiającego komfort użytkowania i tłumienie kroków."
+    },
+    "ac8547e8-f1ef-4e31-8cca-8cba1fa13a65.JPG": {
+      "title": "Ciepła tonacja drewna",
+      "description": "Podłoga dobrana do przytulnego charakteru wnętrza i spokojnej kolorystyki."
+    },
+    "b185aa8a-8bee-4145-9a0a-2397219ed8a1.JPG": {
+      "title": "Deski w stylu tarasowym",
+      "description": "Wyraźny rysunek powierzchni i precyzyjny układ przy krawędziach."
+    },
+    "b23a0353-f4d2-429b-a767-d0229561a8de.JPG": {
+      "title": "Docinki w narożnikach",
+      "description": "Wymagający detal wykonany z naciskiem na czystość linii i dopasowanie."
+    },
+    "b880f8b5-49dc-4ea7-8850-da0181bc1242.JPG": {
+      "title": "Porządek po realizacji",
+      "description": "Końcowy etap przygotowania wnętrza do odbioru i codziennego użytkowania."
+    },
+    "bf623c5e-738c-44f2-893f-a62e9b23732d.JPG": {
+      "title": "Odświeżenie mieszkania",
+      "description": "Szybka przemiana wnętrza dzięki nowej podłodze i dopracowanemu wykończeniu."
+    },
+    "cd4dc7f5-8199-4e3e-80d3-ca7fc15f0a1c.JPG": {
+      "title": "Wykończenie korytarza",
+      "description": "Trwałe rozwiązanie do ciągu komunikacyjnego z naciskiem na odporność i estetykę."
+    },
+    "d3ada1be-63fe-4c86-9196-7b768af24340.JPG": {
+      "title": "Standard ekspozycyjny",
+      "description": "Równa powierzchnia i schludny detal odpowiedni dla wnętrz reprezentacyjnych."
+    },
+    "dcb544ac-2a83-44c0-8470-4a968b77824f.JPG": {
+      "title": "Pielęgnacja klasycznego parkietu",
+      "description": "Renowacja zachowująca charakter drewna i przywracająca mu głębię."
+    },
+    "dcf35e10-8f72-4036-a0f3-bdfa91427acd.JPG": {
+      "title": "Posadzka w stylu loft",
+      "description": "Nowoczesny efekt z mocniejszym rysunkiem i stonowaną kolorystyką."
+    },
+    "e6f18f26-4329-4b32-99bc-f122bc2599be.JPG": {
+      "title": "Nowoczesna szarość",
+      "description": "Chłodniejsza paleta podłogi dopasowana do minimalistycznego wnętrza."
+    },
+    "eb1c8d4a-b2c2-4f17-b43e-390d77fae9f4.JPG": {
+      "title": "Wykończenie domu rodzinnego",
+      "description": "Praktyczna i estetyczna powierzchnia przygotowana do intensywnego użytkowania."
+    },
+    "f8ffc9a2-58d5-4957-8333-1668be016f46.JPG": {
+      "title": "Odbiór premium",
+      "description": "Finalny efekt po domknięciu wszystkich detali montażowych i wykończeniowych."
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "site": {
+    "brand": "Urbik Böden & Ausbau",
+    "baseUrl": "https://example.com"
+  },
+  "common": {
+    "skipToContent": "Zum Inhalt springen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "primaryNavigation": "Hauptnavigation",
+    "languageSwitcher": "Sprachauswahl",
+    "languages": {
+      "pl": "PL",
+      "de": "DE"
+    },
+    "closeLightbox": "Bildvorschau schließen",
+    "previousImage": "Vorheriges Bild",
+    "nextImage": "Nächstes Bild"
+  },
+  "navigation": {
+    "home": "Start",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "seo": {
+    "home": {
+      "title": "Urbik Böden & Ausbau | Renovierung und Bodenarbeiten",
+      "description": "Professionelles Renovierungsunternehmen mit Schwerpunkt auf Innenausbau und Bodenarbeiten in Krakau und Umgebung.",
+      "canonicalPath": "/index.html",
+      "ogTitle": "Böden, Renovierungen und Innenausbau",
+      "ogDescription": "Bewährte Projekte mit Holz-, Vinyl- und Laminatböden sowie kompletter Innenausbau."
+    },
+    "about": {
+      "title": "Über uns | Urbik Böden & Ausbau",
+      "description": "Lernen Sie die Arbeitsweise, Erfahrung und Qualitätsstandards von Urbik Böden & Ausbau kennen.",
+      "canonicalPath": "/about.html",
+      "ogTitle": "Erfahrung und verlässliche Projektabwicklung",
+      "ogDescription": "Wir arbeiten termingerecht, präzise und mit hohem Anspruch an jedes Detail."
+    },
+    "services": {
+      "title": "Leistungen | Böden, Montage, Schleifen",
+      "description": "Unser Leistungsumfang umfasst Böden, Sockelleisten, Parkettrenovierung, Lackieren, Ölen und Ausbauarbeiten.",
+      "canonicalPath": "/services.html",
+      "ogTitle": "Ausbau- und Bodenleistungen",
+      "ogDescription": "Von der Untergrundvorbereitung bis zum finalen Schutz und zur Übergabe."
+    },
+    "gallery": {
+      "title": "Projektgalerie | Urbik Böden & Ausbau",
+      "description": "Sehen Sie ausgewählte Boden- und Ausbauprojekte unseres Teams.",
+      "canonicalPath": "/gallery.html",
+      "ogTitle": "Galerie für Böden und Ausbau",
+      "ogDescription": "Echte Fotos unserer Projekte: Montage, Renovierung, Details und fertige Oberflächen."
+    },
+    "contact": {
+      "title": "Kontakt | Urbik Böden & Ausbau",
+      "description": "Kontaktieren Sie uns, um Umfang, Termin und eine erste Kosteneinschätzung zu besprechen.",
+      "canonicalPath": "/contact.html",
+      "ogTitle": "Kontakt und schnelle Einschätzung",
+      "ogDescription": "Adresse, Telefonnummern, E-Mail und ein einfaches Kontaktformular ohne Serveranbindung."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Renovierungsqualität",
+      "title": "Böden und Innenausbau präzise, sauber und terminsicher umgesetzt.",
+      "description": "Wir führen Ausbauarbeiten mit Schwerpunkt auf Böden aus: Untergrundvorbereitung, Montage, Renovierung, Sockelleisten und finaler Oberflächenschutz.",
+      "primaryCta": "Leistungen ansehen",
+      "secondaryCta": "Galerie öffnen"
+    },
+    "stats": [
+      {
+        "value": "12+",
+        "label": "Jahre praktische Erfahrung im Ausbau"
+      },
+      {
+        "value": "32",
+        "label": "dokumentierte Projekte in der aktuellen Galerie"
+      },
+      {
+        "value": "48h",
+        "label": "für eine erste Rückmeldung und Terminabstimmung"
+      }
+    ],
+    "highlightsLabel": "Warum wir",
+    "highlightsTitle": "Klare Organisation vom Aufmaß bis zur Übergabe",
+    "highlightsIntro": "Wir arbeiten als verlässlicher Ausführungspartner für Wohnungen, Häuser und kleinere Gewerbeflächen. Ästhetik, Haltbarkeit und planbare Abläufe sind für uns gleich wichtig.",
+    "highlights": [
+      {
+        "title": "Untergrundvorbereitung",
+        "description": "Wir prüfen Ebenheit, Feuchtigkeit und die passende Technik für den gewählten Bodenbelag."
+      },
+      {
+        "title": "Präzise Montage",
+        "description": "Wir achten auf Verlegerichtung, Dehnfugen, Ecken, Schwellen und saubere Übergänge."
+      },
+      {
+        "title": "Sauberer Abschluss",
+        "description": "Zum Schluss folgen Sockelleisten, Abdichtung, Oberflächenschutz und Nutzungshinweise."
+      }
+    ],
+    "servicesLabel": "Leistungen",
+    "servicesTitle": "Häufig beauftragte Arbeiten",
+    "servicesIntro": "Wir übernehmen einzelne Räume ebenso wie größere Ausbaupakete mit dem Boden als zentralem Element.",
+    "contactLabel": "Kontakt",
+    "contactTitle": "Sie brauchen eine schnelle Einschätzung?",
+    "contactIntro": "Senden Sie Umfang, Fläche und Wunschtermin. Wir geben erste Hinweise und schlagen einen Besichtigungstermin vor.",
+    "contactPrimaryCta": "Zum Kontakt",
+    "galleryLabel": "Referenzen",
+    "galleryTitle": "Galerie mit echten Fotos aus unseren Projekten",
+    "galleryIntro": "Keine Visualisierungen und keine Stockbilder. Wir zeigen echte Montage-, Renovierungs- und Ausbauergebnisse.",
+    "galleryCta": "Komplette Galerie öffnen",
+    "ctaLabel": "Zusammenarbeit",
+    "ctaTitle": "Sie suchen einen Handwerksbetrieb, der Detail und Termin gleichermaßen liefert?",
+    "ctaDescription": "Unser Ablauf ist klar: Umfang festlegen, Arbeiten planen, sauber ausführen und ordentlich übergeben.",
+    "ctaPrimary": "Beratung anfragen",
+    "ctaSecondary": "Über die Firma"
+  },
+  "about": {
+    "heroLabel": "Über uns",
+    "heroTitle": "Zuverlässiger Innenausbau mit starkem Fokus auf Bodenqualität und sauberes Detail.",
+    "heroIntro": "Wir verbinden praktische Ausführungserfahrung mit geordneter Arbeitsorganisation. So kennt der Kunde von Anfang an Ablauf, Umfang und Qualitätsniveau.",
+    "storyLabel": "Unsere Arbeitsweise",
+    "storyTitle": "Zuerst prüfen wir den Raum, dann wählen wir die Technik, danach wird montiert",
+    "storyText1": "Jedes Projekt beginnt mit der Bewertung des Untergrunds, der Raumnutzung und des gewünschten Endergebnisses. Ein Familienhaus erfordert eine andere Herangehensweise als eine Anlagewohnung oder ein kleines Gewerbeobjekt.",
+    "storyText2": "Wir sind auf Böden und jene Ausbauarbeiten spezialisiert, die perfekt mit ihnen zusammenspielen müssen: Höhen, Sockelleisten, Übergänge, Schutzschichten und die finale Optik sind genauso wichtig wie die Verlegung selbst.",
+    "metricsLabel": "Kennzahlen",
+    "valuesLabel": "Arbeitsstandard",
+    "valuesTitle": "Drei Regeln, die wir auf jeder Baustelle einhalten",
+    "valuesIntro": "Wir setzen auf Planbarkeit, Ordnung und eine Qualität, die auch nach mehreren Nutzungsjahren überzeugt.",
+    "values": [
+      {
+        "title": "Ausführungsgenauigkeit",
+        "description": "Wir achten auf Verlegebild, Hilfsmaterialien und die sichtbare Qualität des Enddetails."
+      },
+      {
+        "title": "Klare Kommunikation",
+        "description": "Umfang, Etappen und Reihenfolge werden so abgestimmt, dass der Kunde jederzeit weiß, was passiert."
+      },
+      {
+        "title": "Saubere Übergabe",
+        "description": "Wir beenden das Projekt mit einer aufgeräumten Baustelle und Pflegehinweisen für den Boden."
+      }
+    ],
+    "processLabel": "Ablauf",
+    "processTitle": "Zusammenarbeit Schritt für Schritt",
+    "process": [
+      {
+        "title": "1. Besichtigung und Gespräch",
+        "description": "Wir analysieren Umfang, Untergrund und die optischen wie funktionalen Erwartungen."
+      },
+      {
+        "title": "2. Auswahl der Lösung",
+        "description": "Wir empfehlen die passende Verlegetechnik, Oberflächenbehandlung und Nebenarbeiten."
+      },
+      {
+        "title": "3. Ausführung",
+        "description": "Wir setzen den abgestimmten Umfang termingerecht und mit Qualitätskontrolle um."
+      },
+      {
+        "title": "4. Übergabe und Hinweise",
+        "description": "Wir übergeben die fertige Arbeit und erklären die sichere Nutzung und Pflege."
+      }
+    ],
+    "ctaLabel": "Nächster Schritt",
+    "ctaTitle": "Wenn Ihnen die Qualität des Bodens wichtig ist, beginnen wir am besten mit einer Besichtigung und einem klaren Gespräch.",
+    "ctaDescription": "Ein paar Angaben zu Fläche, Raumtyp und Wunschzeitpunkt reichen aus, damit wir einen sinnvollen Plan vorschlagen können.",
+    "ctaButton": "Kontakt aufnehmen"
+  },
+  "services": {
+    "heroLabel": "Leistungsumfang",
+    "heroTitle": "Ausbauleistungen mit Fokus auf Böden und langlebigem Enddetail.",
+    "heroIntro": "Wir übernehmen einzelne Arbeitsschritte ebenso wie größere Ausbaupakete. Entscheidend ist die passende Technik für Raum und Nutzung.",
+    "sectionLabel": "Was wir ausführen",
+    "sectionTitle": "Leistungen für Wohnungen, Häuser und Gewerberäume",
+    "sectionIntro": "Die folgenden Leistungen kombinieren wir flexibel je nach Projekt. Jeder Auftrag beginnt mit einer technischen Prüfung und der passenden Materialwahl.",
+    "items": [
+      {
+        "title": "Komplette Ausbauarbeiten",
+        "description": "Wir koordinieren kleine und mittlere Ausbauarbeiten so, dass der Boden Teil eines stimmigen Gesamtergebnisses wird.",
+        "details": [
+          "Vorbereitung von Wänden und Böden für weitere Etappen",
+          "Kontrolle von Höhen und Übergängen zwischen Bereichen",
+          "Detailabstimmung an Sockelleisten, Schwellen und Einbauten"
+        ]
+      },
+      {
+        "title": "Holz- und Fertigparkettböden",
+        "description": "Wir montieren natürliche Böden mit Fokus auf Stabilität, saubere Anschlüsse und korrekte Dehnfugen.",
+        "details": [
+          "Fertigparkett und klassisches Parkett",
+          "gerade, versetzte oder dekorative Verlegung",
+          "Auswahl von Unterlagen und Montagesystemen"
+        ]
+      },
+      {
+        "title": "Laminat- und Vinylböden",
+        "description": "Wir verlegen belastbare Lösungen für Wohnungen, Büros und kleinere Gewerbeflächen.",
+        "details": [
+          "präzise Zuschnitte an Zargen und Ecken",
+          "Klicksysteme gemäß Herstellerangaben",
+          "saubere Übergänge zwischen Räumen"
+        ]
+      },
+      {
+        "title": "Parkettschliff und Renovierung",
+        "description": "Wir geben Holzböden wieder eine ebene Fläche, mehr Tiefe im Farbton und eine sichere Schutzschicht.",
+        "details": [
+          "mehrstufiges Schleifen",
+          "lokale Reparaturen und Austausch beschädigter Elemente",
+          "Vorbereitung für Öl oder Lack"
+        ]
+      },
+      {
+        "title": "Lackieren, Ölen und Abdichten",
+        "description": "Wir wählen das passende Schutzsystem nach Raumnutzung und gewünschtem Erscheinungsbild.",
+        "details": [
+          "matte, halbmatte oder natürliche Oberfläche",
+          "Schutz für stark beanspruchte Bereiche",
+          "Erstpflege nach Fertigstellung"
+        ]
+      },
+      {
+        "title": "Sockelleisten, Schwellen und Detailabschluss",
+        "description": "Wir schließen das Projekt mit den Elementen ab, die den Qualitätseindruck des gesamten Innenraums prägen.",
+        "details": [
+          "Montage von Sockelleisten",
+          "Schwellen und Übergangsprofile",
+          "sauberer Abschluss an Türen und Treppen"
+        ]
+      }
+    ],
+    "processLabel": "Umsetzung",
+    "processTitle": "So führen wir die Leistung vom ersten Kontakt bis zur Übergabe",
+    "process": [
+      {
+        "title": "Untergrundanalyse",
+        "description": "Wir prüfen Ebenheit, Tragfähigkeit, Feuchtigkeit und alle Voraussetzungen für eine sichere Montage."
+      },
+      {
+        "title": "Materialwahl",
+        "description": "Wir stimmen Bodenbelag, Unterlage und Bauchemie auf den konkreten Raum ab."
+      },
+      {
+        "title": "Montage und Renovierung",
+        "description": "Wir setzen den abgestimmten Umfang mit Fokus auf Sauberkeit und Detailqualität um."
+      },
+      {
+        "title": "Finaler Schutz",
+        "description": "Wir schließen mit Sockelleisten, Abdichtungen und Pflegehinweisen ab."
+      }
+    ],
+    "ctaLabel": "Anfrage",
+    "ctaTitle": "Beschreiben Sie den Umfang und wir schlagen die passende Technik und Reihenfolge vor.",
+    "ctaDescription": "Das beste Ergebnis entsteht, wenn Boden und angrenzende Ausbauarbeiten als Gesamtheit geplant werden.",
+    "ctaButton": "Kontakt anfragen"
+  },
+  "galleryPage": {
+    "heroLabel": "Galerie",
+    "heroTitle": "Ausgewählte Boden- und Ausbauprojekte.",
+    "heroIntro": "Jedes Bild stammt aus einem realen Projekt. Wir zeigen Arbeitsphasen, Montagedetails und das fertige Ergebnis.",
+    "gridLabel": "Fotos",
+    "gridTitle": "Klicken Sie auf ein Bild für die größere Ansicht",
+    "gridIntro": "Die Beschriftungen sind exakt den Dateinamen zugeordnet, damit die Galerie auch beim Sprachwechsel konsistent bleibt.",
+    "helper": "Alle Bilder werden per Lazy Loading geladen, um die Seite schneller zu halten."
+  },
+  "contact": {
+    "heroLabel": "Kontakt",
+    "heroTitle": "Sprechen wir über Ihren Boden oder den Ausbauumfang.",
+    "heroIntro": "Kontaktieren Sie uns telefonisch, per E-Mail oder über das einfache Formular. Die Website ist statisch, daher sendet das Formular noch nicht an einen Server — es ist als fertige UI für eine spätere Integration vorbereitet.",
+    "detailsLabel": "Kontaktdaten",
+    "detailsTitle": "Verfügbar in Krakau und Umgebung",
+    "detailsIntro": "Wir arbeiten vor allem für Wohnräume und kleinere gewerbliche Projekte. Besichtigungen und technische Gespräche vereinbaren wir flexibel.",
+    "addressLabel": "Adresse",
+    "address": "ul. Czerwona 18",
+    "cityLine": "30-698 Kraków, Polen",
+    "phonePrimaryLabel": "Hauptnummer",
+    "phonePrimary": "+48 600 700 800",
+    "phoneSecondaryLabel": "Weitere Nummer",
+    "phoneSecondary": "+48 501 234 567",
+    "emailLabel": "E-Mail",
+    "email": "kontakt@urbik-podlogi.pl",
+    "hoursLabel": "Erreichbarkeit",
+    "hours": "Montag - Freitag: 07:00 - 18:00 | Samstag: 08:00 - 14:00",
+    "formLabel": "Formular",
+    "formTitle": "Projektumfang senden",
+    "formIntro": "Tragen Sie die wichtigsten Projektdaten ein. Die Oberfläche ist für eine spätere Anbindung an einen Formulardienst vorbereitet.",
+    "form": {
+      "nameLabel": "Vor- und Nachname",
+      "namePlaceholder": "Zum Beispiel Jan Kowalski",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "+48 000 000 000",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre@email.de",
+      "serviceLabel": "Leistungsumfang",
+      "servicePlaceholder": "Passende Leistung wählen",
+      "messageLabel": "Projektbeschreibung",
+      "messagePlaceholder": "Fläche, Bodenart, Standort und gewünschter Termin.",
+      "submit": "Anfrage senden",
+      "disclaimer": "Noch ohne Serveranbindung — das Formular zeigt ein fertiges UI-Layout.",
+      "notice": "Diese Version sendet keine Daten. Für den Produktiveinsatz muss eine Formularintegration ergänzt werden."
+    }
+  },
+  "footer": {
+    "tagline": "Innenausbau und Böden mit Fokus auf Haltbarkeit, saubere Ausführung und starke Endästhetik.",
+    "locationLabel": "Einsatzgebiet",
+    "contactLabel": "Schneller Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "credit": "Statische Website mit HTML, Tailwind und vanilla JS erstellt."
+  },
+  "gallery": {
+    "16081c6d-c037-47e3-b181-d513a2d1bd11.JPG": {"title": "Erneuerter Eichenboden", "description": "Geschliffene und geschützte Oberfläche für den täglichen Einsatz im Wohnbereich."},
+    "18da5642-4396-4e5c-8be0-ff0fe71834f5.JPG": {"title": "Fischgrät-Detail", "description": "Präzise ausgerichtetes Muster mit sauberem Rhythmus und ordentlichem Wandabschluss."},
+    "20356b62-8b3b-4765-bb8e-18d693568275.JPG": {"title": "Paneele im Wohnzimmer", "description": "Verlegung der Paneele passend zu Lichteinfall und Raumproportionen."},
+    "20e214d6-23ea-4db3-826d-65ba3da75d75.JPG": {"title": "Vinyl im Durchgang", "description": "Robuster Boden für den Eingangsbereich mit sauber bearbeiteten Kanten."},
+    "23987375-34db-4784-92bc-9ff3b67a6747.JPG": {"title": "Untergrundvorbereitung", "description": "Ausgleich und Kontrolle der Fläche vor Beginn der eigentlichen Montage."},
+    "38039f9f-a35f-44af-bc86-0c309fb6266d.JPG": {"title": "Sockelleisten und Abschluss", "description": "Abschlussdetail passend zu Farbton und Stil des Innenraums."},
+    "3bed13b3-75f6-4cea-8c12-883e4bae4381.JPG": {"title": "Schliff vor Schutzschicht", "description": "Mehrstufiges Schleifen zur Vorbereitung des Parketts auf die Schutzschichten."},
+    "3e785fb9-b526-4272-83b7-6d628bbfd199.JPG": {"title": "Matte Oberfläche", "description": "Natürliche Optik mit alltagstauglicher Widerstandsfähigkeit."},
+    "3ef14e16-a45d-4668-9fa8-86bb6e26a8ae.JPG": {"title": "Stufenkanten-Detail", "description": "Präzise Kantenbearbeitung in einem stark beanspruchten Bereich."},
+    "58ca22f0-83f8-489a-b267-fb5c4d0dc24f.JPG": {"title": "Gerade Fliesenlinien", "description": "Verlegung mit kontrollierten Fugen und ausgewogener Raumachse."},
+    "74a5f012-6087-4def-99d4-cc8325712bf3.JPG": {"title": "Großformatige Paneele", "description": "Große Formate mit Fokus auf Rhythmus und Flächenstabilität."},
+    "79da2c40-3a5a-4be4-973c-7a8d25f011cf.JPG": {"title": "Geölte Oberfläche", "description": "Betonte Holzstruktur mit ruhiger, natürlicher Endwirkung."},
+    "7e1f5738-63b9-44ef-983a-ef1482c86a67.JPG": {"title": "Übergang zwischen Räumen", "description": "Sauberer Anschluss zweier Bereiche ohne zufällige Höhenunterschiede."},
+    "84c62c79-5332-45ad-bbec-076c79f721c1.JPG": {"title": "Sockelleistenmontage", "description": "Sauberes Abschlussdetail passend zur Wandgeometrie und Bodenfarbe."},
+    "89a6021f-90f3-4a06-8459-7ab3b5aa71e6.JPG": {"title": "Schwellenloser Übergang", "description": "Eleganter Wechsel zwischen Nutzungszonen ohne unnötige Trennung."},
+    "8a7fceaf-fcd9-4b95-bbe9-fe41a25ceb48.JPG": {"title": "Verlegeprobe", "description": "Kontrolle von Muster und Richtung vor dem finalen Abschluss der Fläche."},
+    "8c630f6c-326c-4067-af7d-2bb81a57c9bd.JPG": {"title": "Frisch geschütztes Parkett", "description": "Letzte Schutzschicht für gleichmäßigen Glanz und sichere Nutzung."},
+    "a12a2244-4018-4d0d-8f40-7c57bba40e51.JPG": {"title": "Reparatur und Austausch", "description": "Lokale Erneuerung einzelner Dielen ohne Bruch im Gesamtbild."},
+    "abb4b950-ae95-41b8-ba82-29f97d83d438.JPG": {"title": "Ausgleichsschicht", "description": "Stabile Untergrundvorbereitung für die nächsten Montageschritte."},
+    "abe2db63-25f1-4e72-b407-7814cee83b5d.JPG": {"title": "Akustische Unterlage", "description": "Unterlage zur Verbesserung des Komforts und Reduktion von Trittschall."},
+    "ac8547e8-f1ef-4e31-8cca-8cba1fa13a65.JPG": {"title": "Warme Holztöne", "description": "Boden passend zu einem wohnlichen Raumcharakter und ausgewogener Farbpalette."},
+    "b185aa8a-8bee-4145-9a0a-2397219ed8a1.JPG": {"title": "Dielen im Terrassenstil", "description": "Markante Oberflächenzeichnung mit präzisem Verlauf entlang der Kanten."},
+    "b23a0353-f4d2-429b-a767-d0229561a8de.JPG": {"title": "Eckzuschnitte", "description": "Anspruchsvolles Detail mit sauberen Linien und genauer Passform."},
+    "b880f8b5-49dc-4ea7-8850-da0181bc1242.JPG": {"title": "Saubere Übergabe", "description": "Finale Reinigung als letzter Schritt vor Übergabe und Nutzung."},
+    "bf623c5e-738c-44f2-893f-a62e9b23732d.JPG": {"title": "Wohnungsauffrischung", "description": "Schnelle Innenraumveränderung durch neuen Boden und sauberen Ausbau."},
+    "cd4dc7f5-8199-4e3e-80d3-ca7fc15f0a1c.JPG": {"title": "Flur-Ausbau", "description": "Robuste Lösung für Verkehrsflächen mit Fokus auf Widerstand und Optik."},
+    "d3ada1be-63fe-4c86-9196-7b768af24340.JPG": {"title": "Ausstellungsstandard", "description": "Gleichmäßige Fläche und sauberes Detail für repräsentative Räume."},
+    "dcb544ac-2a83-44c0-8470-4a968b77824f.JPG": {"title": "Pflege klassischer Parkettböden", "description": "Renovierung, die den Holzcharakter erhält und Tiefe zurückbringt."},
+    "dcf35e10-8f72-4036-a0f3-bdfa91427acd.JPG": {"title": "Boden im Loft-Stil", "description": "Moderner Oberflächeneffekt mit stärkerer Zeichnung und ruhiger Farbigkeit."},
+    "e6f18f26-4329-4b32-99bc-f122bc2599be.JPG": {"title": "Moderne Graupalette", "description": "Kühlerer Bodenfarbton passend zu einem minimalistischen Raumkonzept."},
+    "eb1c8d4a-b2c2-4f17-b43e-390d77fae9f4.JPG": {"title": "Ausbau für das Familienhaus", "description": "Praktische und ästhetische Oberfläche für intensive tägliche Nutzung."},
+    "f8ffc9a2-58d5-4957-8333-1668be016f46.JPG": {"title": "Premium-Übergabe", "description": "Endergebnis nach Abschluss aller Montage- und Ausbaudetails."}
+  }
+}
