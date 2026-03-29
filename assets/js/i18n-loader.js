@@ -460,14 +460,19 @@ function setupContactForm() {
         const email = formData.get('email') || '';
         const service = formData.get('service') || '';
         const message = formData.get('message') || '';
-        const recipient = state.translations?.contact?.email || '';
+        const recipient = (
+            state.translations?.contact?.email ||
+            document.querySelector('[data-contact-link="email"]')?.textContent ||
+            ''
+        ).trim();
 
         if (!recipient) {
             status.textContent = state.translations?.contact?.form?.notice || '';
             return;
         }
 
-        const subject = `Zapytanie: ${service || 'Usługa'}`;
+        const brand = state.translations?.site?.brand || 'Kontakt';
+        const subject = service ? `${brand} - ${service}` : brand;
         const bodyLines = [
             `Imię i nazwisko: ${name}`,
             `Telefon: ${phone}`,

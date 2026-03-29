@@ -298,7 +298,6 @@
       "messageLabel": "Opis inwestycji",
       "messagePlaceholder": "Metraż, typ podłogi, lokalizacja i preferowany termin realizacji.",
       "submit": "Wyślij zapytanie",
-      "disclaimer": "Bez integracji serwerowej — formularz prezentuje gotowy układ UI.",
       "notice": "Formularz w tej wersji nie wysyła danych. Dodaj integrację, aby obsłużyć zapytania produkcyjnie."
     }
   },

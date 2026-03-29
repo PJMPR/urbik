@@ -298,7 +298,6 @@
       "messageLabel": "Projektbeschreibung",
       "messagePlaceholder": "Fläche, Bodenart, Standort und gewünschter Termin.",
       "submit": "Anfrage senden",
-      "disclaimer": "Noch ohne Serveranbindung — das Formular zeigt ein fertiges UI-Layout.",
       "notice": "Diese Version sendet keine Daten. Für den Produktiveinsatz muss eine Formularintegration ergänzt werden."
     }
   },
