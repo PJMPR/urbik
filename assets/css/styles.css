@@ -242,6 +242,11 @@ body {
 	line-height: 1.65;
 }
 
+.contact-grid .card-item a {
+	word-break: normal;
+	overflow-wrap: anywhere;
+}
+
 .card-item {
 	height: 100%;
 	border-radius: 1.5rem;
