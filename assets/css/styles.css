@@ -222,6 +222,26 @@ body {
 	gap: 1rem;
 }
 
+.contact-grid {
+	grid-template-columns: minmax(0, 1fr);
+	gap: 1.25rem;
+}
+
+.contact-grid .card-item {
+	padding: 1.75rem;
+}
+
+.contact-grid .card-item h3 {
+	font-size: 1.35rem;
+	margin-bottom: 0.85rem;
+}
+
+.contact-grid .card-item p,
+.contact-grid .card-item a {
+	font-size: 1.05rem;
+	line-height: 1.65;
+}
+
 .card-item {
 	height: 100%;
 	border-radius: 1.5rem;
@@ -443,8 +463,11 @@ body {
 
 	.info-grid,
 	.preview-grid,
-	.contact-grid,
 	.card-grid {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.contact-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
